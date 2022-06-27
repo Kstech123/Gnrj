@@ -352,7 +352,7 @@ section {
 }
 
 @media (max-width: 450px) {
-    .glry .columng {
+    .columng {
         flex: 100%;
         max-width: 95%;
         margin: 0px auto;
