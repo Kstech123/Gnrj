@@ -103,12 +103,12 @@ section {
 
     .nav-links ul li {
         display: block;
-        width: 20%;
+        width: 100%;
         margin: 0px auto;
         padding: 10px 0px;
     }
 
-        .nav-links {
+    .nav-links {
         position: fixed;
         background: rgba(0, 0, 0, 0.85);
         height: 100vh;
@@ -152,12 +152,12 @@ section {
 
 @media(max-width: 449px) {
     .logo {
-        left: 5px;
+        left: 0px;
         top: -10px;
     }
 
     .logo img{
-        width: 90px;
+        width: 85px;
         height: 80px;
     }
 }
@@ -344,6 +344,7 @@ section {
     .glry .columng {
         flex: 50%;
         max-width: 50%;
+        Padding: 0px;
     }
 
     .smlg {
