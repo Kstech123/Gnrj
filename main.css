@@ -344,7 +344,6 @@ section {
     .glry .columng {
         flex: 50%;
         max-width: 50%;
-        Padding: 0px;
     }
 
     .smlg {
@@ -353,10 +352,11 @@ section {
 }
 
 @media (max-width: 450px) {
-    .columng {
+    .glry .columng {
         flex: 100%;
         max-width: 95%;
         margin: 0px auto;
+        Padding: 0px;
     }
 
     .md {
